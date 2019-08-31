@@ -1,0 +1,29 @@
+{
+  "name": "fullstack_playground",
+  "version": "1.0.0",
+  "description": "A small project to explore concepts learned at Code Fellows Code 301d50 class, involving full-stack development",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SharinaS/fullstack_playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SharinaS/fullstack_playground/issues"
+  },
+  "homepage": "https://github.com/SharinaS/fullstack_playground#readme",
+  "dependencies": {
+    "dotenv": "^8.1.0",
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "method-override": "^3.0.0",
+    "pg": "^7.12.1",
+    "superagent": "^5.1.0"
+  }
+}
