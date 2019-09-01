@@ -31,7 +31,7 @@ DATABASE_URL=postgres://USERNAME:PASSWORD@localhost:5432/exam_playground
 
 Create a Database for the playground
 ```sql
-CREATE DATABASE exam_playground;
+CREATE DATABASE fullstack_playground;
 ```
 
 Add any tables you want to test
@@ -44,10 +44,10 @@ CREATE TABLE tableName(
 
 ### Optional
 
-You can add the above to a schema.sql file and initialize your databse with psql:
+You can add the above to a schema.sql file and initialize your databse with psql, once you're inside the data folder:
 
 ```
-psql -d exam_playground -f path/to/file.sql
+psql -d fullstack_playground -f path/to/file.sql
 ```
 
 ## Running the playground
