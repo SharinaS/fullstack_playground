@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Doggy friends</title>
+</head>
+<body>
+  <h1>Dogs I know</h1>
+    <% for(let i=0; i < dogList.length; i++){ %>
+      <h2> <%= dogList[i].dog_name %> </h2>
+      <p><%= dogList[i].dog_name %> is a <%= dogList[i].breed %>. She is <%= dogList[i].age%> years old.</p>
+    <% } %>
+</body>
+</html>
